@@ -1,0 +1,18 @@
+GET http://localhost:8080/api/cliente
+
+###
+
+GET http://localhost:8080/api/cliente/1
+
+
+###
+
+
+POST http://localhost:8080/api/cliente HTTP/1.1
+content-type: application/json
+{
+	"nome": "Robnerson Brehm 19",
+	"telefone": "123468498",
+	"cpf": "49684684",
+	"placa": "12341"
+}
